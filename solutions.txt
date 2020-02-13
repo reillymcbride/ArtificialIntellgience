@@ -1,0 +1,101 @@
+Reilly McBride
+Period 5
+10/6/17
+
+---->Solving  ABCDEFG.IJKHMNOL
+Solved.        BFS       23 Nodes	    2 Steps	 0.00020 secs	 116088 N/s
+Solved.     BD_BFS        6 Nodes	    2 Steps	 0.00004 secs	 139810 N/s
+Solved.     ID_DFS        5 Nodes	    2 Steps	 0.00007 secs	  75709 N/s
+Solved.     greedy        6 Nodes	    2 Steps	 0.00015 secs	  40460 N/s
+
+---->Solving  ABC.EFGDIJKHMNOL
+Solved.        BFS       40 Nodes	    3 Steps	 0.00030 secs	 134757 N/s
+Solved.     BD_BFS        6 Nodes	    3 Steps	 0.00003 secs	 175985 N/s
+Solved.     ID_DFS        6 Nodes	    3 Steps	 0.00010 secs	  58799 N/s
+Solved.     greedy        7 Nodes	    3 Steps	 0.00013 secs	  51965 N/s
+
+---->Solving  AB.CEFHDIJGKMNOL
+Solved.        BFS      510 Nodes	    6 Steps	 0.00401 secs	 127123 N/s
+Solved.     BD_BFS       45 Nodes	    5 Steps	 0.00028 secs	 160633 N/s
+Solved.     ID_DFS       32 Nodes	    6 Steps	 0.00134 secs	  23882 N/s
+Solved.     greedy       18 Nodes	    6 Steps	 0.00029 secs	  61380 N/s
+
+---->Solving  A.BCEFGDIJKHMNOL
+Solved.        BFS      192 Nodes	    5 Steps	 0.00122 secs	 157133 N/s
+Solved.     BD_BFS       14 Nodes	    4 Steps	 0.00007 secs	 200410 N/s
+Solved.     ID_DFS       70 Nodes	    5 Steps	 0.00090 secs	  77529 N/s
+Solved.     greedy       11 Nodes	    5 Steps	 0.00018 secs	  61435 N/s
+
+---->Solving  ABGCEFKD.IJHMNOL
+Solved.        BFS     1785 Nodes	    8 Steps	 0.01289 secs	 138427 N/s
+Solved.     BD_BFS       83 Nodes	    7 Steps	 0.00038 secs	 221314 N/s
+Solved.     ID_DFS      554 Nodes	    8 Steps	 0.01148 secs	  48248 N/s
+Solved.     greedy       31 Nodes	    8 Steps	 0.00061 secs	  50830 N/s
+
+---->Solving  BCD.AFGHEIJLMNKO
+Solved.        BFS     1892 Nodes	    9 Steps	 0.01443 secs	 131141 N/s
+Solved.     BD_BFS       85 Nodes	    9 Steps	 0.00039 secs	 219125 N/s
+Solved.     ID_DFS     1847 Nodes	    9 Steps	 0.01949 secs	  94762 N/s
+Solved.     greedy       27 Nodes	    9 Steps	 0.00046 secs	  58829 N/s
+
+---->Solving  EACDIBGHMFJLN.KO
+Solved.        BFS     4894 Nodes	   10 Steps	 0.04422 secs	 110669 N/s
+Solved.     BD_BFS      166 Nodes	   10 Steps	 0.00152 secs	 109011 N/s
+Solved.     ID_DFS     5275 Nodes	   10 Steps	 0.06017 secs	  87667 N/s
+Solved.     greedy       86 Nodes	   10 Steps	 0.00130 secs	  66356 N/s
+
+---->Solving  ABCDFGKHEJNL.IMO
+Solved.        BFS    14218 Nodes	   11 Steps	 0.17517 secs	  81167 N/s
+Solved.     BD_BFS      299 Nodes	   11 Steps	 0.00151 secs	 198527 N/s
+Solved.     ID_DFS     1472 Nodes	   11 Steps	 0.05478 secs	  26871 N/s
+Solved.     greedy       33 Nodes	   11 Steps	 0.00050 secs	  65598 N/s
+
+---->Solving  .EBDIACHFGKLMJNO
+Solved.        BFS    86248 Nodes	   14 Steps	 0.99984 secs	  86262 N/s
+Solved.     BD_BFS      656 Nodes	   14 Steps	 0.00350 secs	 187596 N/s
+Solved.     ID_DFS    52358 Nodes	   14 Steps	 0.74927 secs	  69879 N/s
+Solved.     greedy      119 Nodes	   14 Steps	 0.00176 secs	  67577 N/s
+
+---->Solving  ABCDEFGHIOJNMK.L
+Solved.        BFS    66428 Nodes	   13 Steps	 0.67561 secs	  98323 N/s
+Solved.     BD_BFS      708 Nodes	   13 Steps	 0.00370 secs	 191203 N/s
+Solved.     ID_DFS    15528 Nodes	   13 Steps	 0.36930 secs	  42048 N/s
+Solved.     greedy      189 Nodes	   13 Steps	 0.00292 secs	  64686 N/s
+
+---->Solving  .CGDBAJHFEKLIMNO
+Solved.        BFS   375112 Nodes	   16 Steps	 5.06423 secs	  74071 N/s
+Solved.     BD_BFS     1338 Nodes	   16 Steps	 0.00703 secs	 190327 N/s
+Solved.     ID_DFS   165061 Nodes	   16 Steps	 2.92012 secs	  56525 N/s
+Solved.     greedy      162 Nodes	   16 Steps	 0.00240 secs	  67637 N/s
+
+---->Solving  ABC.EFHDMJIGNKOL
+Solved.        BFS   774271 Nodes	   17 Steps	 10.95830 secs	  70656 N/s
+Solved.     BD_BFS     2973 Nodes	   17 Steps	 0.01717 secs	 173101 N/s
+Solved.     ID_DFS   276755 Nodes	   17 Steps	 5.90836 secs	  46841 N/s
+Solved.     greedy      514 Nodes	   17 Steps	 0.00796 secs	  64574 N/s
+
+---->Solving  BCGDAFHLEK.OIMNJ
+Solved.        BFS  2651972 Nodes	   18 Steps	 47.91275 secs	  55350 N/s
+Solved.     BD_BFS     5875 Nodes	   18 Steps	 0.03892 secs	 150947 N/s
+Solved.     ID_DFS   170113 Nodes	   18 Steps	 17.26328 secs	   9854 N/s
+Solved.     greedy      802 Nodes	   18 Steps	 0.02419 secs	  33153 N/s
+
+def K_DFS(root, level):
+    stack = collections.deque()
+    stack.append(root)
+    node_depth = 0
+    while node_depth <= level and stack:
+        parent = stack.pop()
+        node_depth = parent.depth + 1
+        if (goal_test(parent.state)):
+            #path(parent)
+            return parent
+        index = parent.state.index(BLANK)
+        dict = DICTIONARY
+        if (node_depth < level):
+            for i in dict[index]:
+                childstate = make_move(parent.state, i, index)
+                if childstate not in parent.ancestors:
+                    child = Node(childstate, parent, node_depth)
+                    stack.append(child)
+    return None

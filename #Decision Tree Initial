@@ -1,0 +1,70 @@
+#Decision Tree Initial
+
+import math
+import pandas as pd
+
+def entropy(prob_list):
+    if 1 in prob_list:
+        return 0
+    calc_list = [prob * math.log(prob, 2) for prob in prob_list]
+    entropy = sum(calc_list) * -1
+    return entropy
+
+def prob_list(df, col = 0)
+    
+
+def info(data_frame, col, outcomes):
+    num = len(col)
+    dict = {} #keys are options for the column, value is tuple w/ #Y #N
+    for i in range(0, num):
+        key = col[i]
+        dict[key] = [0, 0]
+    for i in range(0, num):
+        k = col[i]
+        out = outcomes[i]
+        if out == "Yes":
+            dict[k][0] = dict[k][0] + 1
+        if out == "No":
+            dict[k][1] = dict[k][1] + 1
+    #dict works!! 
+    info = 0
+    print(dict)
+    for k in dict.keys():
+        total = dict[k][0] + dict[k][1]
+        probs = []
+        probs.append(dict[k][0]/total) #yes
+        probs.append(dict[k][1]/total) #no
+        print("Prob" + str(probs))
+        h = entropy(probs)
+        info = info + ((total/num) * h)
+    return info
+
+def find_best_start(df, rows, cols):
+    outcomes = df.iloc[:, cols-1]
+    dict = {}
+    for i in range(0, cols-1):
+        d = info(df, df.iloc[:, i], outcomes)
+        dict[df.columns[i]] = d   
+    frame = pd.DataFrame({"Nodes": dict})
+    frame = frame.sort_values("Nodes")
+    return frame
+
+class Node:
+    def __init__(self, n, t):
+        name = n
+        children = {}
+        type_node = t
+        
+def refne(df, feature, value):
+    return df.loc[df['feature'] == value]
+
+#def tree(data):
+ #   if entropy(data) == 0:
+        
+    
+
+#waits = pd.read_csv("restaurant.csv")
+tennis = pd.read_csv("play_tennis.csv") #tennis has a "trial" column, so pre-process
+tennis = tennis.iloc[:, 1:]
+find_best_start(tennis, tennis.shape[0], tennis.shape[1]) #ignore "Day" since that's just like "Trial"
+
